@@ -8,7 +8,7 @@ require 'require_all'
 require_all 'lib'
 
 World(Mohawk::Navigation)
-Mohawk.app_path = PATH_TO_EXECUTABLE
+Mohawk.app_path = 'calc.exe'
 
 def capture_screenshot(name)
   Dir.mkdir('screenshots') unless Dir.exist? 'screenshots'
