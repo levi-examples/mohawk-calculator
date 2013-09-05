@@ -2,7 +2,7 @@ $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '../../', 'lib'))
 
 require 'rspec-expectations'
 require 'mohawk'
-require 'win32screenshot'
+require 'win32/screenshot'
 require 'require_all'
 
 require_all 'lib'
